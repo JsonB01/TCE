@@ -1,0 +1,113 @@
+/*===============TOOLS===============*/
+    /*  
+        .25rem = 4px
+        .5rem = 8px
+        .75rem = 12px
+        1rem = 16px
+        1.5rem = 24px
+        2rem = 32px
+    */
+
+/*===============VARIABLES===============*/
+:root{
+    /*===Heights=====*/
+    --header-height: 3rem;
+
+    /*===Font-size=====*/
+    --big-header-size: 3rem;
+    --second-header-size: 3rem;
+    --text-size: 3rem;
+    --header-link-size: 3rem;
+    --icon-media-size: 3rem;
+    --icon-nav-size: 3rem;
+
+    /*===Font-family===*/
+    --logo-font: ;
+    --big-header-font: ;
+    --second-header-font: ;
+    --text-font: sans ms;
+    --header-link-font: ;
+
+    /*===Color===*/
+    --hue: ;
+    --hue-second: ;
+    --hue-third: ;
+    --big-header-color: ;
+    --second-header-color: ;
+    --text-color: ;
+    --header-link-color: ;
+    --icon-media-color: ;
+    --icon-nav-color: ;
+    --body-main-color: ;
+    --body-second-color: ;
+    --body-third-color: ;
+
+    /*===Border===*/
+    --border-small: 10px solid #000;
+    --border-medium: 5px solid #000;
+    --border-big: 2px solid #000;
+
+    /*===Border-radius===*/
+    --border-radius-small: 10px;
+    --border-radius-medium: 5px;
+    --border-radius-big: 2px;
+}
+
+/*===============BASIC CODE start===============*/
+*{
+margin: 0;
+padding: 0;
+}
+
+
+/*===============BASIC CODE end===============*/
+
+/*===============BOBY start===============*/
+
+
+/*===============BODY end===============*/
+
+/*===============HEAEDER start===============*/
+
+
+/*===============HEADER end===============*/
+
+/*===============LANDING start===============*/
+.ses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+}
+.ses a{
+    width: 45%;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+.dark .ses a{
+    background-color: hsl(226, 42%, 5%);
+    color: #ACBBC6;
+}
+
+
+/*===============LANDING end===============*/
+
+/*===============FOOTER sart===============*/
+
+
+/*===============FOOTER end===============*/
+
+/*===============DARK MODE SETTINGS start===============*/
+
+
+/*===============DARK MODE SETTINGS end===============*/

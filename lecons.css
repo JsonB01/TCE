@@ -10,3 +10,23 @@ ul li{
     border-bottom: 1px solid hsl(271, 100%, 33%);
     width: 90%;
 }
+
+li span{
+    display: none;
+}
+li span h3{
+    color: hsl(0, 80%, 30%);
+    text-align: center;
+    text-decoration: underline;
+}
+li span p{
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+li:hover span{
+    display: block;
+}
+.dark li span p{
+    color: #ACBBC6;
+}
