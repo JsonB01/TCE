@@ -77,7 +77,7 @@ header{
     left: -80px;
     top: 0px; 
     width: 80px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #FFF2F9;
     box-shadow: 0px 0px 10px 0px rgba(240, 25, 25, 0.6);
     border-radius: 0px 15px 15px 0px;
@@ -117,7 +117,7 @@ header ol li .uil{
     color: #5f4bb6;
     font-size: 2rem;
     bottom: 20px;
-    left: 50%;
+    right: 10px;
     transform: translateX(-50%);
     cursor: pointer;
 }
@@ -142,11 +142,11 @@ h4{
     padding: 10px 5%;
 }
 table{
-    width: 130%;
-    height: 80vh;
+    width: 140%;
+    height: 70vh;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: red;
+    background-color: aquamarine;
     border-radius: 5px;
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
