@@ -70,8 +70,8 @@ padding: 0;
 /*===============HEAEDER start===============*/
 header{
     position: fixed;
-    left: 0;
-    width: 15%;
+    left: -80px;
+    width: 80px;
     height: 100vh;
     background-color: #FFF2F9;
     box-shadow: 0px 0px 10px 0px rgba(240, 25, 25, 0.6);
@@ -102,14 +102,26 @@ header ol li .uil{
     color: red;
     cursor: pointer;
 }
+.show{
+    left: 0px;
+}
+
+
+.app_menu .uil{
+    position: fixed;
+    color: #5f4bb6;
+    font-size: 2rem;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+}
 
 
 /*===============HEADER end===============*/
 
 /*===============LANDING start===============*/
 .layout{
-    width: 85%;
-    margin-left: 15%;
+    width: 100%;
 }
 h2{
     font-size: 2.5rem;
@@ -124,7 +136,7 @@ h4{
 table{
     width: 140%;
     height: 80vh;
-    margin-left: 5%;
+    margin-left: 20px;
     background-color: aquamarine;
     border-radius: 5px;
     font-size: 15px;
