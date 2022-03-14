@@ -75,7 +75,7 @@ padding: 0;
 /*===============LANDING start===============*/
 .ses{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
     margin-top: 15%;
