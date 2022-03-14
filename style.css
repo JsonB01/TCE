@@ -107,6 +107,16 @@ header ol li .uil{
     color: red;
     cursor: pointer;
 }
+header ol li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+header ol li a .nom{
+    color: black;
+    text-transform: capitalize;
+}
 .show{
     left: 0px;
 }
@@ -195,6 +205,9 @@ table tr th .uil{
 }
 .dark table{
     background-color: hsl(226, 42%, 5%);
+    color: #ACBBC6;
+}
+.dark ol li a .nom{
     color: #ACBBC6;
 }
 

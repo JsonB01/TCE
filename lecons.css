@@ -11,22 +11,22 @@ ul li{
     width: 90%;
 }
 
-li span{
+ul li span{
     display: none;
 }
-li span h3{
+ul li span h3{
     color: hsl(0, 80%, 30%);
     text-align: center;
     text-decoration: underline;
 }
-li span p{
+ul li span p{
     font-size: 1.3rem;
     color: black;
     font-family: 'Varela Round', sans-serif;
 }
-li:hover span{
+ul li:hover span{
     display: block;
 }
-.dark li span p{
+.dark ul li span p{
     color: #ACBBC6;
 }
