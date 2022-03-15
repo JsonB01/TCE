@@ -30,3 +30,6 @@ ul li:hover span{
 .dark ul li span p{
     color: #ACBBC6;
 }
+ul li b{
+    user-select: none;
+}
