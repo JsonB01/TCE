@@ -33,3 +33,18 @@ ul li:hover span{
 ul li b{
     user-select: none;
 }
+
+.image{
+    list-style-type: none;
+}
+.image li{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    border-bottom: none;
+}
+.image li img{
+    border: 2px solid hsl(271, 100%, 33%);
+    border-radius: 20px;
+    width: 100%;
+}
